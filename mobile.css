@@ -1,0 +1,93 @@
+@media ( max-width: 1025px){
+    .containerquery{
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+}
+
+@media(max-width: 900px){
+    #sectionone .container{
+     flex-direction: column;
+    }
+
+    .boxtextcta{
+        order: 2;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .boximg{
+        order: 1;
+    }
+
+    /* #sectiontow{
+        background-image: linear-gradient(180deg, #3c3d40ab, #9fa3a6cc ), url(../imgs/autoridade.jpg);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    } */
+}
+
+@media(max-width: 741px){
+    
+    .containerquery{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 15%;
+    }
+
+    .boxbutton{
+     
+        margin-top: 1.5rem;
+        
+       }
+
+    #sectiontow{
+        background-image: linear-gradient(180deg, #3c3d40ab, #9fa3a6cc ), url(./imgs/autoridade741px.jpg);
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+         }
+
+         
+
+         .containerquery .slidebetween{
+            flex-direction: column;
+            width: 100%;
+            max-width: 1200px;
+            min-width: 300px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+           
+         }
+
+         .boxparagrafo{
+         height: 150px;
+
+         }
+
+       
+    
+}
+
+@media(max-width: 532px){
+    .containerquery{
+        margin-top: 22%;
+    }
+
+    #sectiontow{
+        background-image: linear-gradient(180deg, #3c3d40ab, #9fa3a6cc ), url(./imgs/autoridade532px.jpg);
+        background-position: 70% 60%;
+        background-size: fill;
+        background-repeat: no-repeat;
+         }
+
+
+       
+    
+}
+
+
